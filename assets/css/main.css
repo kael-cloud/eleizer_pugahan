@@ -241,12 +241,6 @@ image dancing about
 body.light-mode .glowing-dancing-image {
   animation: futuristic-glow-light 2s infinite alternate ease-in-out;
 }
-.enlarged-image {
-  transform: scale(2);
-  /* or if you want exact width, you can do */
-  /* width: 200%; */
-  /* height: auto; */
-}
 
 /* ✨ Hover Effect */
 .glowing-dancing-image:hover {
