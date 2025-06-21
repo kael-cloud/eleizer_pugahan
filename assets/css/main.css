@@ -1193,6 +1193,16 @@ body.light-mode .speech-bubble::before {
   line-height: 0;
 }
 
+.glowing-dancing-image {
+  width: 350px; /*large */
+  height: 350px;
+  border-radius: 50%; /* Circle shape */
+  object-fit: cover; /* Crop image inside circle */
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  box-shadow: 0 0 30px rgba(0, 150, 255, 0.4); /* Optional glowing effect */
+}
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
